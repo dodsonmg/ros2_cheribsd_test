@@ -36,8 +36,6 @@ add_executable(cheribsd_test src/cheribsd_test.cpp)
 target_link_libraries(cheribsd_test composition_nodes)
 ament_target_dependencies(cheribsd_test rclcpp class_loader)
 
-add_executable(make_shared_test src/make_shared_test.cpp)
-
 install(TARGETS
   composition_nodes
   ARCHIVE DESTINATION lib
@@ -46,7 +44,6 @@ install(TARGETS
 
 install(TARGETS
   cheribsd_test
-  make_shared_test
   DESTINATION lib/${PROJECT_NAME})
 
 ament_package()
