@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.5)
-project(cheribsd_test)
+project(ros2_cheribsd_test)
 
 # Default to C++14
 if(NOT CMAKE_CXX_STANDARD)
