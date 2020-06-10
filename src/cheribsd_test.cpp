@@ -32,7 +32,7 @@ int main(int argc, char * argv[])
   leave them out for now, as simply running rclcpp::init() is a sufficient
   initial test that the ROS2 libraries compiled and an application will run */
 
-  auto publisher_node = std::make_shared<PublisherNode>(options);
+  // auto publisher_node = std::make_shared<PublisherNode>(options);
   // auto subscriber_node = std::make_shared<SubscriberNode>(options);
   // exec.add_node(publisher_node);
   // exec.add_node(subscriber_node);
